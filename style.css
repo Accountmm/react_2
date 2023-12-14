@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+:root {
+    --ff: 'JosefinSans';
+    --color: #20A4F3;
+}
+
+body {
+    background: rgb(32, 32, 110);
+    background: linear-gradient(90deg, rgba(32, 32, 110, 1) 0%, rgba(44, 178, 184, 1) 100%);
+}
+
+.div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #0063ff;
+    padding: 20px;
+}
+
+.login {
+    font-family: var(--ff);
+    font-size: 29px;
+    color: aqua;
+    margin-bottom: 20px;
+    cursor: default;
+}
+
+.username,
+.password {
+    width: 200px;
+    padding: 3px 6px 3px 6px;
+    outline: none;
+    border: 1px solid #fff;
+    color: aquamarine;
+    font-size: 17px;
+    font-family: var(--ff);
+    background: #11c9d3c9;
+}
+
+.username {
+    margin-bottom: 30px;
+}
+
+.btn {
+    font-size: 16px;
+    padding: 7px;
+    color: #0063ff;
+    background: aqua;
+    border: none;
+    font-family: var(--ff);
+    margin-top: 20px;
+    cursor: pointer;
+}
